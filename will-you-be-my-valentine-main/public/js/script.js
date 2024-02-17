@@ -105,9 +105,7 @@ function changeLanguage() {
 
     // Update success message
     const successMessage = document.getElementById("success-message");
-    if (language === "french") {
-        successMessage.textContent = "Yepppie, à bientôt :3";
-    } else {
+    if (language === "English") {
         successMessage.textContent = "Yepppie, see you sooonnn :3";
-    }
+    } 
 }
